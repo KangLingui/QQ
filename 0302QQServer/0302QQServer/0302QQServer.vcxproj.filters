@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="网络">
+      <UniqueIdentifier>{66cb4dbc-fd6a-4719-af45-6f47c465f22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="核心类">
+      <UniqueIdentifier>{1eaee7ea-38bf-4f4e-bb62-19bdba473213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据库">
+      <UniqueIdentifier>{e473efd6-6b32-49d8-9e7f-d63c355d5440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="协议">
+      <UniqueIdentifier>{b3511455-3bac-4b64-9a1f-0448cf2a7524}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Net\TCPNet.cpp">
+      <Filter>网络</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Kernel\TCPKernel.cpp">
+      <Filter>核心类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MySql\CMySql.cpp">
+      <Filter>数据库</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Net\INet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Net\TCPNet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\IKernel.h">
+      <Filter>核心类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Kernel\TCPKernel.h">
+      <Filter>核心类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MySql\CMySql.h">
+      <Filter>数据库</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Packdef\Packef.h">
+      <Filter>协议</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
